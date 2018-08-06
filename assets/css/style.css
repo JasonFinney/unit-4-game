@@ -1,0 +1,106 @@
+body{
+    background-image:url("mine.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+@font-face{
+    font-family: 'Helldora';
+    src: url('helldora.ttf');
+}
+
+h1 {
+    font-family: 'Helldora';
+    color: white;
+    padding: 10px;
+    border: 5px white double;
+    margin-top: 15px;
+    position: relative;
+    left: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.row2{
+    font-family: 'Helldora';
+    color: white;
+    padding: 10px;
+    border: 5px white double;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.rnum{
+    float: left;
+    font-size: 40px;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    width: 30%;
+}
+
+.scoreboard{
+    text-align: center;
+    font-size: 20px;
+}
+
+.row3{
+    font-family: 'Helldora';
+    color: white;
+    padding: 10px;
+    border: 5px white double;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.row4{
+    font-family: 'Helldora';
+    color: white;
+    padding: 10px;
+    border: 5px white double;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.row5{
+    font-family: 'Helldora';
+    color: white;
+    padding: 10px;
+    border: 5px white double;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.blue{
+    width: 10%;
+    height: 60px;
+}
+
+.emerald{
+    width: 10%;
+    height: 60px;
+}
+
+.heart{
+    width: 10%;
+    height: 60px;
+}
+
+.shadow{
+    width: 10%;
+    height: 60px;
+    background-color: rgba(255, 255, 255, .8)
+}
+
+.your{
+    float: left;
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.total-score{
+    float: left;
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px;
+}
